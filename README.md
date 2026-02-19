@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> MATA KULIAH SISTEM OPERASI </h1>
+<h1>Workshop Pemograman Framework</h1>
 
 ![Image](https://github.com/user-attachments/assets/3ad88b6e-7159-44a2-a004-c909b974a88c)
 
