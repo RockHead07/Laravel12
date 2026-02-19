@@ -2,7 +2,7 @@
 
 <h1>Workshop Pemograman Framework</h1>
 
-<img width="1052" height="1052" alt="Image" src="https://github.com/user-attachments/assets/c4ae0b3f-ed53-4d38-9627-44f28929b41b" />
+<img width="521" height="521" alt="Image" src="https://github.com/user-attachments/assets/c4ae0b3f-ed53-4d38-9627-44f28929b41b" />
 
 <h3> Dosen Pengampu: </h3>
 
