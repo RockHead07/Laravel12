@@ -60,33 +60,81 @@ export default function About({
                         )}
                     </nav>
                 </header>
+
                 <div className="flex w-full items-center justify-center opacity-100 transition-opacity duration-750 lg:grow starting:opacity-0">
                     <main className="flex w-full max-w-[335px] flex-col lg:max-w-4xl">
                         <div className="rounded-lg bg-white p-6 pb-12 shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:p-20 dark:bg-[#161615] dark:text-[#EDEDEC] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]">
-                            <h1 className="mb-4 text-2xl font-semibold">
-                                About Us
-                            </h1>
-                            <p className="mb-4 text-[#706f6c] dark:text-[#A1A09A]">
-                                Welcome to our application built with Laravel and React. 
-                                This is a modern web application that combines the power of Laravel's backend 
-                                with React's interactive frontend.
-                            </p>
-                            <p className="mb-4 text-[#706f6c] dark:text-[#A1A09A]">
-                                Our mission is to provide a seamless user experience with cutting-edge 
-                                technology and best practices in web development.
-                            </p>
-                            <h2 className="mb-3 text-lg font-medium">
-                                Key Features
-                            </h2>
-                            <ul className="mb-6 list-inside list-disc space-y-2 text-[#706f6c] dark:text-[#A1A09A]">
-                                <li>Modern responsive design</li>
-                                <li>Secure authentication with Laravel Fortify</li>
-                                <li>Interactive React components</li>
-                                <li>Dark mode support</li>
-                            </ul>
-                            <p className="text-sm text-[#706f6c] dark:text-[#A1A09A]">
-                                Built with Laravel 12 and React with TypeScript.
-                            </p>
+
+                            {/* Layout: foto kiri + konten kanan */}
+                            <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:gap-12">
+
+                                {/* Foto Mahasiswa - Lingkaran */}
+                                <div className="flex-shrink-0">
+                                    <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-[#e8e8e3] shadow-md dark:border-[#2e2e2b] lg:h-52 lg:w-52">
+                                        <img
+                                            src="/assets/images/me.jpeg"
+                                            alt="Foto Mahasiswa"
+                                            className="h-full w-full object-cover"
+                                        />
+                                    </div>
+
+                                </div>
+
+                                {/* Konten Portofolio */}
+                                <div className="flex-1 text-center lg:text-left">
+                                    {/* Nama & Jurusan */}
+                                    <h1 className="mb-1 text-2xl font-semibold">
+                                        Bagus Insan Pradana
+                                    </h1>
+                                    <p className="mb-1 text-sm font-medium text-[#706f6c] dark:text-[#A1A09A]">
+                                        D3 Teknik Informatika · Politeknik Elektronika Negeri Surabaya
+                                    </p>
+                                    <p className="mb-4 text-xs text-[#a09f9b] dark:text-[#706f6c]">
+                                        NRP: 3124521007 · Angkatan 2024
+                                    </p>
+
+                                    {/* Deskripsi Singkat */}
+                                    <p className="mb-5 text-sm leading-relaxed text-[#706f6c] dark:text-[#A1A09A]">
+                                        I'm an Informatics Engineering student at <span className="font-medium text-[#1b1b18] dark:text-[#EDEDEC]">Politeknik Elektronika Negeri Surabaya (PENS)</span> with a strong focus on building web-based systems that are structured, maintainable, and production-ready. <span className="font-medium text-[#1b1b18] dark:text-[#EDEDEC]">I also have a passion in technology</span>, and also <span className="font-medium text-[#1b1b18] dark:text-[#EDEDEC]">have a strong interest in audio stuff, such as IEM, headphones, and speakers.</span> I have a strong desire to learn and grow in the field of web development, and I'm always looking for new opportunities to expand my knowledge and skills.
+                                    </p>
+
+
+                                    {/* Kontak & Sosial */}
+                                    <div className="flex flex-wrap justify-center gap-2 lg:justify-start">
+                                        <a
+                                            href="mailto:dana.bagus07@gmail.com"
+                                            className="inline-block rounded-sm border border-[#19140035] px-4 py-1.5 text-xs leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
+                                        >
+                                            Email
+                                        </a>
+                                        <a
+                                            href="https://github.com/RockHead07"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-block rounded-sm border border-[#19140035] px-4 py-1.5 text-xs leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
+                                        >
+                                            GitHub
+                                        </a>
+                                        <a
+                                            href="https://www.linkedin.com/in/bagus-insan-pradana-69513434a/?skipRedirect=true"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-block rounded-sm border border-[#19140035] px-4 py-1.5 text-xs leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
+                                        >
+                                            LinkedIn
+                                        </a>
+                                        <a
+                                            href="https://byte-portfolio.vercel.app/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-block rounded-sm border border-[#19140035] px-4 py-1.5 text-xs leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
+                                        >
+                                            My Portfolio Website
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </main>
                 </div>
