@@ -10,6 +10,12 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
+Route::get('/about', function () {
+    return Inertia::render('about', [
+        'canRegister' => Features::enabled(Features::registration()),
+    ]);
+})->name('about');
+
 Route::get('dashboard', function () {
     return Inertia::render('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
