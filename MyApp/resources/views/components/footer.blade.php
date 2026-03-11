@@ -30,3 +30,4 @@
         <p>&copy; {{ date('Y') }} Long Nguyen. Built with Laravel &amp; ❤️</p>
     </div>
 </footer>
+

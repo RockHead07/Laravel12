@@ -5,7 +5,6 @@
     </div>
 
     <div class="projects__grid">
-
         <div class="project-card">
             <div class="project-card__image">
                 <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80" alt="Medical Pantry">
@@ -57,7 +56,6 @@
                 <h3 class="project-card__title">RAG-AI Personal Assistant</h3>
             </div>
         </div>
-
     </div>
 
     <div class="projects__nav">
@@ -65,3 +63,4 @@
         <button class="proj-btn proj-btn--active" id="nextBtn" aria-label="Next">&#8594;</button>
     </div>
 </section>
+

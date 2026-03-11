@@ -6,3 +6,4 @@
     @include('components.skills')
     @include('components.projects')
 @endsection
+

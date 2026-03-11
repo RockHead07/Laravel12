@@ -5,7 +5,6 @@
     </div>
 
     <div class="timeline">
-
         <div class="timeline__item">
             <div class="timeline__year">
                 <span>2025 – Present</span>
@@ -49,6 +48,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </section>
+
