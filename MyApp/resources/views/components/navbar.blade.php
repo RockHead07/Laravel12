@@ -2,7 +2,7 @@
     <div class="navbar__inner">
         <a href="/" class="navbar__logo">
             <span class="logo-bracket">[</span>
-            <span class="logo-name">Long<br>Nguyen</span>
+            <span class="logo-name">Dan.</span>
             <span class="logo-bracket">]</span>
         </a>
 

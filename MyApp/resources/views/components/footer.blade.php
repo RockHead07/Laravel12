@@ -3,12 +3,12 @@
         <div class="footer__brand">
             <a href="/" class="navbar__logo footer__logo">
                 <span class="logo-bracket">[</span>
-                <span class="logo-name">Long<br>Nguyen</span>
+                <span class="logo-name">Dan.</span>
                 <span class="logo-bracket">]</span>
             </a>
             <div class="footer__divider"></div>
             <div class="footer__tagline">
-                <p class="footer__name">Long Nguyen</p>
+                <p class="footer__name">Bagus Insan Pradana</p>
                 <p class="footer__desc">Passionate learner. Innovative developer.</p>
             </div>
         </div>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="footer__bottom">
-        <p>&copy; {{ date('Y') }} Long Nguyen. Built with Laravel &amp; ❤️</p>
+        <p>&copy; {{ date('Y') }} Bagus Insan Pradana. Built with Laravel <3</p>
     </div>
 </footer>
 

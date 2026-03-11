@@ -3,22 +3,28 @@
 
     <div class="hero__content">
         <h1 class="hero__greeting">
-            <span class="greeting-text">안녕하세요!</span>
-            <span class="greeting-sub">Hello! I'm Long.</span>
+            <span class="greeting-text">
+                <span class="greeting-text-static">Hello, I'm&nbsp;</span>
+                <span id="hero-typewriter"></span>
+            </span>
+            <span class="greeting-sub">
+                Nice to meet you.
+            </span>
         </h1>
 
-        <div class="hero__card glass-card">
-            <div class="card-dots">
-                <span class="dot dot--red"></span>
-                <span class="dot dot--yellow"></span>
-                <span class="dot dot--green"></span>
+        <div class="hero__card glass-card powershell-card">
+            <div class="ps-header">
+                <span class="ps-title">Windows PowerShell</span>
+                <span class="ps-controls">━  ☐  ✕</span>
             </div>
             <div class="card-code">
-                <pre><code><span class="c-key">"about_me"</span><span class="c-white">: {</span>
-  <span class="c-key">"name"</span><span class="c-white">:</span> <span class="c-val">"Long Nguyen"</span><span class="c-white">,</span>
-  <span class="c-key">"career-in-progress"</span><span class="c-white">:</span> <span class="c-val">"Software Development"</span><span class="c-white">,</span>
-  <span class="c-key">"current-career-focus"</span><span class="c-white">:</span> <span class="c-val">"Fullstack Web Developer"</span>
-<span class="c-white">}</span></code></pre>
+                <pre><code><span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">whoami</span>
+<span class="ps-output">bagus.insan.pradana</span>
+
+<span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">Get-Profile</span>
+<span class="ps-output">{ PENS IT Student, Audio Enthusiast, Tech Savvy }</span>
+
+<span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">New-Project</span> -Name <span class="ps-arg">"Web Portfolio"</span> -Framework <span class="ps-arg">"Laravel"</span></code></pre>
             </div>
         </div>
 
