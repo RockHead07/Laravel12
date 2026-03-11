@@ -7,11 +7,11 @@
     <div class="timeline">
         <div class="timeline__item">
             <div class="timeline__year">
-                <span>2025 – Present</span>
+                <span>2024 – Present</span>
             </div>
             <div class="timeline__content glass-card">
-                <p class="timeline__headline">Decided to make 2025 my year to shine</p>
-                <p class="timeline__label">Latest update:</p>
+                <p class="timeline__headline">Politeknik Elektronika Negeri Surabaya</p>
+                <p class="timeline__label">D3 Informatics Engineering · 4th Semester</p>
                 <ul class="timeline__list">
                     <li>Landed an internship as a Software Developer @ FPT Australasia</li>
                     <li>Expecting to graduation soon!</li>
@@ -21,30 +21,16 @@
 
         <div class="timeline__item">
             <div class="timeline__year">
-                <span>2023 – 2024</span>
+                <span>2021 – 2024</span>
             </div>
             <div class="timeline__content glass-card">
-                <p class="timeline__headline">Dove deep into BS Computing and Software Systems degree at UniMelb</p>
-                <p class="timeline__label">My key takeaways:</p>
+                <p class="timeline__headline">SMAN 1 Wringinanom</p>
+                <p class="timeline__label">Science Major · Average Grade: 91.68/100</p>
                 <ul class="timeline__list">
-                    <li><span class="accent">🔒</span> Learned that released datasets usually have silent rules to protect privacy through <em>COMP30026</em></li>
-                    <li><span class="accent">🧠</span> Refined my data structures and algorithms through <em>COMP20003</em> and Leetcode questions</li>
-                    <li><span class="accent">📚</span> Balanced my academic responsibilities with other life commitments</li>
+                    <li><span class="accent"></span>Learnt as an Science Students in SMAN 1 Wrigninanom.</li>
+                    <li><span class="accent"></span>Located in the Indoensia, East Java, Gresik, Wringinanom.</li>
+     
                     <li>... and many more</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="timeline__item">
-            <div class="timeline__year">
-                <span>2022</span>
-            </div>
-            <div class="timeline__content glass-card">
-                <p class="timeline__headline">Started my adulthood at The University of Melbourne</p>
-                <p class="timeline__label">At a glance:</p>
-                <ul class="timeline__list">
-                    <li>📝 Wrote my first line of code in Python and C</li>
-                    <li>🍕 Somehow knew how to make 250+ pizza doughs in 1 hour (Thanks, Domino's)</li>
                 </ul>
             </div>
         </div>

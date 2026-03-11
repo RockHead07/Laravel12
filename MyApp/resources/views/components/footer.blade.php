@@ -14,13 +14,13 @@
         </div>
 
         <div class="footer__links">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__social">
+            <a href="https://www.linkedin.com/in/bagus-insan-pradana-69513434a/" target="_blank" rel="noopener noreferrer" class="footer__social">
                 LinkedIn ↗
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__social">
+            <a href="https://github.com/RockHead07" target="_blank" rel="noopener noreferrer" class="footer__social">
                 GitHub ↗
             </a>
-            <a href="mailto:long@example.com" class="footer__social">
+            <a href="mailto:dana.bagus07@gmail.com" class="footer__social">
                 Email ↗
             </a>
         </div>

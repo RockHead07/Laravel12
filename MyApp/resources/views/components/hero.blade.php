@@ -2,29 +2,40 @@
     <div class="hero__grid-bg"></div>
 
     <div class="hero__content">
+
         <h1 class="hero__greeting">
             <span class="greeting-text">
                 <span class="greeting-text-static">Hello, I'm&nbsp;</span>
                 <span id="hero-typewriter"></span>
             </span>
-            <span class="greeting-sub">
-                Nice to meet you.
-            </span>
+            <span class="greeting-sub">Nice to meet you.</span>
         </h1>
 
-        <div class="hero__card glass-card powershell-card">
-            <div class="ps-header">
-                <span class="ps-title">Windows PowerShell</span>
-                <span class="ps-controls">━  ☐  ✕</span>
-            </div>
-            <div class="card-code">
-                <pre><code><span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">whoami</span>
-<span class="ps-output">bagus.insan.pradana</span>
+        {{-- Isolation wrapper — breaks text-align:center inheritance --}}
+        <div class="json-card-wrap">
+            <div class="json-window">
 
-<span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">Get-Profile</span>
-<span class="ps-output">{ PENS IT Student, Audio Enthusiast, Tech Savvy }</span>
+                {{-- Windows Title Bar --}}
+                <div class="json-titlebar">
+                    <span class="json-titlebar__title">about_me.json</span>
+                    <div class="json-titlebar__controls">
+                        <button class="win-btn win-btn--min" aria-label="Minimize">&#8722;</button>
+                        <button class="win-btn win-btn--max" aria-label="Maximize">&#9633;</button>
+                        <button class="win-btn win-btn--close" aria-label="Close">&#10005;</button>
+                    </div>
+                </div>
 
-<span class="ps-path">PS C:\Users\Bagus&gt;</span> <span class="ps-command">New-Project</span> -Name <span class="ps-arg">"Web Portfolio"</span> -Framework <span class="ps-arg">"Laravel"</span></code></pre>
+                {{-- JSON Content --}}
+                <div class="json-body">
+<div class="json-line"><span class="j-brace">{</span></div>
+<div class="json-line"><span class="j-brace">  "about_me"</span><span class="j-colon">: </span><span class="j-brace">{</span></div>
+<div class="json-line">    <span class="j-key">"name"</span><span class="j-colon">: </span><span class="j-str">"Bagus Insan Pradana"</span><span class="j-comma">,</span></div>
+<div class="json-line">    <span class="j-key">"career-in-progress"</span><span class="j-colon">: </span><span class="j-str">"Software Development"</span><span class="j-comma">,</span></div>
+<div class="json-line">    <span class="j-key">"current-career-focus"</span><span class="j-colon">: </span><span class="j-str">"Fullstack Web Developer"</span></div>
+<div class="json-line"><span class="j-brace">  }</span></div>
+<div class="json-line"><span class="j-brace">}</span></div>
+                </div>
+
             </div>
         </div>
 
@@ -33,6 +44,7 @@
                 <path d="M12 5v14M5 12l7 7 7-7"/>
             </svg>
         </a>
+
     </div>
 </section>
 
