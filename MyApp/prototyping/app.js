@@ -1,5 +1,3 @@
-import './bootstrap';
-
 // ==============================================
 // NAVBAR — scroll glass effect + mobile toggle
 // ==============================================
@@ -8,7 +6,7 @@ const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 
 window.addEventListener('scroll', () => {
-    if (navbar) navbar.classList.toggle('scrolled', window.scrollY > 20);
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
 }, { passive: true });
 
 hamburger?.addEventListener('click', () => {
@@ -45,16 +43,16 @@ function type() {
     if (!deleting) {
         twEl.textContent = word.substring(0, ci + 1);
         ci++;
-        if (ci === word.length) { deleting = true; setTimeout(type, 1800); return; }
+        if (ci === word.length) { deleting = true; setTimeout(type, 2500); return; }
     } else {
         twEl.textContent = word.substring(0, ci - 1);
         ci--;
         if (ci === 0) { deleting = false; wi = (wi + 1) % words.length; }
     }
-    setTimeout(type, deleting ? 55 : 90);
+    setTimeout(type, deleting ? 100 : 150);
 }
 
-setTimeout(type, 1000);
+setTimeout(type, 3000);
 
 // ==============================================
 // SCROLL FADE-IN (timeline + project cards)
