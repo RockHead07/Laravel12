@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" id="navbar">
     <div class="navbar__inner">
         <a href="/" class="navbar__logo">
             <span class="logo-bracket">[</span>

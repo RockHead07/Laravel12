@@ -30,7 +30,7 @@
 <div class="json-line"><span class="j-brace">{</span></div>
 <div class="json-line"><span class="j-brace">  "about_me"</span><span class="j-colon">: </span><span class="j-brace">{</span></div>
 <div class="json-line">    <span class="j-key">"name"</span><span class="j-colon">: </span><span class="j-str">"Bagus Insan Pradana"</span><span class="j-comma">,</span></div>
-<div class="json-line">    <span class="j-key">"career-in-progress"</span><span class="j-colon">: </span><span class="j-str">"Software Development"</span><span class="j-comma">,</span></div>
+<div class="json-line">    <span class="j-key">"current-status"</span><span class="j-colon">: </span><span class="j-str">"Students"</span><span class="j-comma">,</span></div>
 <div class="json-line">    <span class="j-key">"current-career-focus"</span><span class="j-colon">: </span><span class="j-str">"Fullstack Web Developer"</span></div>
 <div class="json-line"><span class="j-brace">  }</span></div>
 <div class="json-line"><span class="j-brace">}</span></div>
